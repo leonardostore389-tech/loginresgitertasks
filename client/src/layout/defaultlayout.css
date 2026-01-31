@@ -1,0 +1,71 @@
+
+header {
+    background: #000000;
+    padding: 1rem 0;
+    border-bottom: 1px solid #00ff9c;
+    box-shadow: 0 2px 15px rgba(0, 255, 156, 0.2);
+    font-family: 'Courier New', monospace;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 2.5rem;
+}
+
+header nav a {
+    color: #010101;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    transition: 
+        color 0.3s ease,
+        background-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+/* Hover hacker glow */
+header nav a:hover {
+    background-color: rgba(0, 255, 156, 0.1);
+    color: #ffffff;
+    box-shadow: 0 0 10px #00ff9c, 0 0 20px rgba(0, 255, 156, 0.4);
+}
+
+/* Título principal - estilo hacker */
+h1 {
+    text-align: center;
+    color: black;              /* verde hacker */
+    font-size: 2.8rem;
+    margin: 0 2rem 0;
+    font-weight: 700;
+    font-family: 'Courier New', monospace;
+    text-shadow: 
+        0 0 5px #00ff88,
+        0 0 10px #00ff88,
+        0 0 20px #00cc66;       /* brillo neón */
+    letter-spacing: 2px;
+}
+
+h1:hover {
+    text-shadow:
+        2px 0 #00ff00,
+       -2px 0 #00ccff;
+}
+
+/* Contenedor PRINCIPAL - siempre el mismo tamaño */
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+li {
+  color: black;
+  text-decoration: none;
+}
